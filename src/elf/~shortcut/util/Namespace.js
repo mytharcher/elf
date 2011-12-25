@@ -8,9 +8,10 @@
  */
 
 ///import js.util;
-///import js.util.Type;
+///import js.util.Namespace;
 ///import js.util.Shortcut;
 
-js.util.Shortcut.use(elf, js.util.Type, function (key) {
-	return ({extension:false, extend: false})[key];
+js.util.Shortcut.use(elf, {
+	namespace: js.util.Namespace.get,
+	using: js.util.Namespace.using
 });
