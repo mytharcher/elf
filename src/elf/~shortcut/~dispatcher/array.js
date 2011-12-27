@@ -9,10 +9,10 @@
 
 ///import js.util.Shortcut;
 ///import js.util.Type;
-///import js.dom.Node;
+///import js.util.XArray;
 
 /**
  * @ignore
- * 给快捷处理添加元素组处理方式
+ * 给快捷处理添加转化为扩展数组的处理方式
  */
-js.util.Shortcut.intercept(elf, js.util.Type.ARRAY, js.dom.Node);
+js.util.Shortcut.intercept(elf, js.util.Type.ARRAY, js.util.XArray.toXArray);

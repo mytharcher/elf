@@ -1,3 +1,3 @@
 ///import elf.~shortcut.util.Class;
 
-//elf().Class = js.util.Class.create;
+//elf().copy = js.util.Class.copy;

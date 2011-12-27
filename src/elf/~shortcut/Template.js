@@ -1,15 +1,3 @@
-/*
- * elf JavaScript Library
- * 
- * create:
- * @2010-02-13 by mytharcher
- * 
- * update:
- */
+///import elf.~shortcut.text.Template;
 
-///import js.text.Template;
-///import js.util.Shortcut;
-
-js.util.Shortcut.use(elf, {
-	format: js.text.Template.format
-});
+//elf().template = js.text.Template.format;
