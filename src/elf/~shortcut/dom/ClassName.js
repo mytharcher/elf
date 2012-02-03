@@ -11,6 +11,7 @@
 ///import js.util.Shortcut;
 
 js.util.Shortcut.use(elf, {
+	getClass: js.dom.ClassName.get,
 	addClass: js.dom.ClassName.add,
 	removeClass: js.dom.ClassName.remove,
 	hasClass: js.dom.ClassName.has,
