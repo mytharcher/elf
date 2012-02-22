@@ -1,4 +1,5 @@
-﻿# elf+js JavaScript Library
+﻿elf+js JavaScript Library
+=========================
 
 elf是elf+js基础库构想的一部分，其中[jslib][]是基础库的所有功能底层实现，elf是针对开发中常用功能的易用性封装。
 
