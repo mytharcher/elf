@@ -11,5 +11,5 @@
 ///import js.util.Shortcut;
 
 js.util.Shortcut.use(elf, {
-	format: js.text.Template.format
+	template: js.text.Template.format
 });
