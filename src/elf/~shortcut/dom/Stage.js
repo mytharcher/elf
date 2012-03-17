@@ -15,6 +15,8 @@
 ///import js.dom.Stage.mark;
 ///import js.dom.Stage.getNextHighestDepth;
 ///import js.dom.Stage.evalScript;
+///import js.dom.Stage.loadScript;
+///import js.dom.Stage.loadStyle;
 ///import js.util.Shortcut;
 
 js.util.Shortcut.use(elf, {
@@ -22,5 +24,8 @@ js.util.Shortcut.use(elf, {
 	g: js.dom.Stage.get,
 	mark: js.dom.Stage.mark,
 	getNextHighestDepth: js.dom.Stage.getNextHighestDepth,
-	evalScript: js.dom.Stage.evalScript
+	evalScript: js.dom.Stage.evalScript,
+	
+	loadScript: js.dom.Stage.loadScript,
+	loadStyle: js.dom.Stage.loadStyle
 });
