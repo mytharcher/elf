@@ -1,3 +1,3 @@
-///import elf.~shortcut.util.Global;
+///import js.util.Global.guid;
 
-//elf().guid = js.util.Global.guid;
+elf().guid = js.util.Global.guid;

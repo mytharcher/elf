@@ -1,3 +1,3 @@
-///import elf.~shortcut.util.Global;
+///import js.util.Global.noop;
 
-//elf().noop = js.util.Global.noop;
+elf().noop = js.util.Global.noop;

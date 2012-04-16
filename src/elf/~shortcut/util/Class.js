@@ -11,11 +11,8 @@
 ///import js.util.Class;
 ///import js.util.Shortcut;
 
-js.util.Shortcut.use(elf, {
-	clone: js.util.Class.clone,
-	copy: js.util.Class.copy,
-	mix: js.util.Class.mix,
-	Class: js.util.Class.create,
-	inherit: js.util.Class.inherit,
-	implement: js.util.Class.implement
+js.util.Shortcut.use(elf, js.util.Class, function (key) {
+	return key != 'create';
 });
+
+elf().Class = js.util.Class.create;

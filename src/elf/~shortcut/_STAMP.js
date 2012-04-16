@@ -1,3 +1,3 @@
-///import elf.~shortcut.util.Global;
+///import js.util.Global._STAMP;
 
-//elf()._STAMP = js.util.Global._STAMP;
+elf()._STAMP = js.util.Global._STAMP;

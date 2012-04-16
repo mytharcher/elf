@@ -1,3 +1,3 @@
-///import elf.~shortcut.util.Type;
+///import js.util.Type.~Window;
 
-//elf().isWindow = js.util.Type.isWindow;
+elf().isWindow = js.util.Type.isWindow;

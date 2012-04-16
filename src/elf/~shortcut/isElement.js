@@ -1,3 +1,3 @@
-///import elf.~shortcut.util.Type;
+///import js.util.Type.~Element;
 
-//elf().isElement = js.util.Type.isElement;
+elf().isElement = js.util.Type.isElement;
