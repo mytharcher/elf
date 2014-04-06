@@ -9,5 +9,5 @@ js.util.Shortcut.use(elf, {
 	removeElement: js.dom.Operation.remove,
 	emptyElement: js.dom.Operation.empty,
 	html: js.dom.Operation.html,
-	text: js.dom.Operation.text,
+	text: js.dom.Operation.text
 });
