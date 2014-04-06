@@ -1,3 +1,5 @@
 release/*
 test/*
 .project
+.DS_Store
+
