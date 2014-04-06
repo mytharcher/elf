@@ -1,3 +1,3 @@
 ///import js.dom.Operation;
 
-elf().createElement = js.dom.Operation.create;
+// elf().createElement = js.dom.Operation.create;

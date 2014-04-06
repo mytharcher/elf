@@ -12,5 +12,6 @@
 
 js.util.Shortcut.use(elf, {
 	getPosition: js.dom.BoxModel.getPosition,
-	isDisplaying: js.dom.BoxModel.isDisplaying
+	isDisplaying: js.dom.BoxModel.isDisplaying,
+	isViewable: js.dom.BoxModel.isViewable
 });
